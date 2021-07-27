@@ -1,0 +1,62 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    color: black;
+    border: solid rgb(225, 225, 225) 0.5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.email:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.read {
+    background-color: rgb(211, 211, 211);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sm {
+    font-size: 0.75em;
+}
+
+.timestamp {
+    position: absolute;
+    right: 10px;
+}
+
+.mailBody {
+    border-top: solid 0.5px darkgrey;
+    padding-top: 10px;
+}
+
+.mailHead {
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.mail-actions {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+#btn-reply {
+    margin-right: 5px;
+}
